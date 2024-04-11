@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Montserrat&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Marcellus&family=Montserrat&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Marcellus&family=Montserrat&family=Nanum+Gothic+Coding&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="exp1.css">
+  <title>Registration</title>
+</head>
+<body>
+
+    <div class="top-navbar">
+        <div class="logo">
+          <img src="logo.jpeg" alt="Logo">
+        </div>
+        <div class="college-name">United Group Of Institutions</div>
+      </div>
+    
+      <div class="bottom-navbar">
+        <a href="#" >Home</a>
+        <a href="#">Login</a>
+        <a href="#" class="active">Registration</a>
+        <a href="#">Catalogue</a>
+        <a href="#">Cart</a>
+      </div>
+    
+      <div class="container">
+        <div class="subject-pane">
+          <h2>Subjects</h2>
+          <ul>
+            <li><a href="#">CSE</a></li>
+            <li><a href="#">Mechanical</a></li>
+            <li><a href="#">Electrical</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Civil</a></li>
+            <li><a href="#">AIML</a></li>
+          </ul>
+        </div>
+    
+        
+        <div class="registration-container">
+            <h2>Registration Form</h2>
+            <form action="#" method="post">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required>
+        
+              <label for="email">E-mail ID</label>
+              <input type="text" id="email" name="email" required>
+        
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" name="phone" required>
+        
+              <label>Sex</label>
+              <div class="yo1">
+                <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+        </div>
+        <div class="yo2">
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+              </div>
+        
+              <label>Date of Birth</label>
+              <div class="dob-container">
+                <select id="day" name="day">
+                  <!-- Populate with days -->
+                </select>
+                <select id="month" name="month">
+                  <!-- Populate with months -->
+                </select>
+                <select id="year" name="year">
+                  <!-- Populate with years -->
+                </select>
+              </div>
+        
+              <label>Languages Known</label>
+              <div class="languages-container">
+                <label for="english">English</label>
+                <input type="checkbox" id="english" name="languages" value="english">
+                <label for="telugu">Telugu</label>
+                <input type="checkbox" id="telugu" name="languages" value="telugu">
+                <label for="hindi">Hindi</label>
+        
+                <input type="checkbox" id="hindi" name="languages" value="hindi">
+                <label for="tamil">Tamil</label>
+        
+                <input type="checkbox" id="tamil" name="languages" value="tamil">
+              </div>
+        
+              <label for="address">Address</label>
+              <textarea id="address" name="address" rows="4" required></textarea>
+        
+              <button type="submit">Register</button>
+            </form>
+          </div>
+</body>
+</html>

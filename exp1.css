@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+   
+  }
+  
+  .navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar img {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .navbar .college-name {
+    font-size: 18px;
+  }
+  
+  .bottom-navbar .nav-links {
+    display: flex;
+  }
+  
+  .bottom-navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .bottom-navbar a.active {
+    background-color: #28597a;
+    border-radius: 5px;
+  }
+
+
+  /* Add these styles to your exp1.css file */
+
+.top-navbar {
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.top-navbar img {
+  width: 50px;
+  height: 50px;
+ 
+  margin-left: 15px;
+}
+
+.college-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 850px;
+}
+
+.bottom-navbar {
+  background-color: #2980b9;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.bottom-navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  
+  .container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+   
+   
+  }
+  
+  .subject-pane {
+    width: 30%;
+    background-color: #3498db;
+    padding: 20px;
+    margin-left: -127px;
+    margin-top: -20px;
+  }
+
+  .subject-pane li{
+    font-family: 'Marcellus', serif;
+
+
+  }
+  
+  .subject-pane h2 {
+    color: black
+    ;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .extra-space {
+    width: 75%;
+    padding: 20px;
+    padding-left: 300px;
+  }
+  
+  .extra-space h2{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+
+  .featured-book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .featured-book img {
+    max-width: 80px;
+    margin-right: 20px;
+  }
+  
+  .college-name{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+
+  .nav-links{
+    font-family: 'Marcellus', serif;
+
+  }
+
+  .subject-pane a{
+    color: #f0f0f0;
+    text-decoration: none;
+    align-items: right;
+  }
+
+  .featured-book h3{
+    font-family: 'Nanum Gothic Coding', monospace;
+
+  }
+
+  .featured-book p{
+    font-family: 'Nanum Gothic Coding', monospace;
+
+  }
+
+  .bottom-navbar a{
+    font-family: 'Marcellus', serif;
+
+  }
+  /* Logib Page */
+  
+
+  .login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+  }
+
+  .login-form input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .login-form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .login-form button:hover {
+    background-color: #2980b9;
+  }
+
+
+  .container1 {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  h1 {
+    color: #007bff;
+    font-family: 'Nanum Gothic Coding', monospace;
+
+  }
+
+  p {
+    line-height: 1.6;
+    font-family: 'Marcellus', serif;
+
+  }
+
+  /* Add this style in styles.css */
+
+.cart-container {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  border: 1px solid #3498db;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.total-price {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.xyz{
+
+  margin-left: 200px;
+}
+
+
+.cart-table th{
+  font-family: 'Marcellus', serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.registration-container {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: -17px;
+}
+
+.dob-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.languages-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

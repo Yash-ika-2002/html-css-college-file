@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Montserrat&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Marcellus&family=Montserrat&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Kanit&family=Kdam+Thmor+Pro&family=Major+Mono+Display&family=Marcellus&family=Montserrat&family=Nanum+Gothic+Coding&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="exp1.css">
+
+  <style>
+    /* Your existing styles here */
+
+    /* Additional styles for the catalog area */
+    .catalog {
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0px;
+      border: 1px solid #ddd;
+      margin-left: -150px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    .add-to-cart-button {
+      background-color: blue;
+      color: whitesmoke;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .add-to-cart-button:hover {
+      background-color: lightseagreen;
+    }
+  </style>
+
+  <title>Book Catalog</title>
+</head>
+<body>
+
+    <div class="top-navbar">
+        <div class="logo">
+          <img src="logo.jpeg" alt="Logo">
+        </div>
+        <div class="college-name">United Group Of Institutions</div>
+      </div>
+    
+      <div class="bottom-navbar">
+        <a href="#" >Home</a>
+        <a href="#">Login</a>
+        <a href="#">Registration</a>
+        <a href="#" class="active">Catalogue</a>
+        <a href="#">Cart</a>
+      </div>
+    
+      <div class="container">
+        <div class="subject-pane">
+          <h2>Subjects</h2>
+          <ul>
+            <li><a href="#">CSE</a></li>
+            <li><a href="#">Mechanical</a></li>
+            <li><a href="#">Electrical</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Civil</a></li>
+            <li><a href="#">AIML</a></li>
+          </ul>
+        </div>
+  <div class="container">
+    <div class="extra-space">
+      <!-- Catalog Area -->
+      <div class="catalog">
+        <h2>Book Catalog</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Cover</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Book 1 -->
+            <tr>
+              <td><img src="book1.jpg" alt="Book Cover 1" style="width: 50px; height: 70px;"></td>
+              <td>Engineering Mathematics<br>Author : N.P. Bali <br>Publisher A</td>
+        
+             <td>$30.00</td> 
+              <td><button class="add-to-cart-button">Add to Cart</button></td>
+            </tr>
+
+            <!-- Book 2 (Add more books as needed) -->
+            <tr>
+              <td><img src="book2.jpg" alt="Book Cover 2" style="width: 50px; height: 70px;"></td>
+              <td>Data Structures Using C<br>Author : Reema Thareja <br>Publisher B</td>
+
+              <td>$25.00</td>
+              <td><button class="add-to-cart-button">Add to Cart</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="book3.jpg" alt="Book Cover 1" style="width: 50px; height: 70px;"></td>
+                <td>Computer Organization and Architechture<br>Author : M. Morris Mano <br>Publisher C</td>
+          
+               <td>$30.00</td> 
+                <td><button class="add-to-cart-button">Add to Cart</button></td>
+              </tr>
+  
+              <!-- Book 2 (Add more books as needed) -->
+              <tr>
+                <td><img src="book4.jpg" alt="Book Cover 2" style="width: 50px; height: 70px;"></td>
+                <td>HTML, CSS, and JAVASCRIPT all in one<br>Author : Kyrnin, Meloni <br>Publisher D</td>
+  
+                <td>$25.00</td>
+                <td><button class="add-to-cart-button">Add to Cart</button></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
